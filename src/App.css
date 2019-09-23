@@ -1,0 +1,308 @@
+.header-color 
+{
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.landing-grid
+{
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* position: fixed;
+} */
+}
+.avatar-img
+{
+  height: 250px;
+  border-radius: 50%;
+  /* padding-top: 5em; */
+  /* margin-left: auto;
+  margin-right: auto;
+  display: block; */
+}
+.banner-text
+{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1
+{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.banner-text hr
+{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+.banner-text p
+{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+.social-links
+{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i
+{
+  color: white;
+  font-size: 5em;
+  padding-bottom: .5em;
+}
+.footer
+{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+}
+.category-tabs
+{
+  text-align: justify;
+}
+.cardtext-content
+{
+  text-align: justify;
+}
+.projects-grid
+{
+  display: flex;
+}
+.drawer
+{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.title-drawer
+{
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 2em;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.drawer-nav
+{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.contact-body
+{
+  margin: auto;
+  /* background: grey; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* height: 550px; */
+  /* height: 100%; */
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.contact-grid
+{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  /* height: 550px; */
+  background: white;
+  color: black;
+  /* border-radius: 25px;
+  border: 2px solid #73AD21; */
+  /* margin-bottom: 20px; */
+ 
+}
+.contact-grid h2
+{
+  font-family: 'Mukta', sans-serif;
+}
+.contact-grid p
+{
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  padding-top: 2em;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.contact-img
+{
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #73AD21;
+  /* padding-top: 5em; */
+  /* margin-left: auto;
+  margin-right: auto;
+  display: block; */
+}
+.contact-grid hr
+{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list 
+{
+  text-align: left;
+  padding-top: 3em;
+}
+.contact-list i
+{  
+  font-size: 40px;
+  padding-right: .5em;
+}
+.contact-lic
+{
+  font-size: 25px;
+  font-family: 'Mukta', sans-serif;
+}
+.aboutme-body
+{
+  margin: auto;
+  /* background: grey; */
+  
+  width: 100%;
+  height: 100%;
+ 
+  /* height: 550px; */
+  /* height: 100%; */
+  justify-content: center;
+  
+}
+.aboutme-grid
+{
+  text-align: center;
+  justify-content: center;
+ 
+  
+  /* height: 550px; */
+  /* background: #56ab2f;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to left, #a8e063, #56ab2f);  */
+  /* border-radius: 25px;
+  border: 2px solid #73AD21; */
+  /* margin-bottom: 20px; */
+}
+.resume-left-col
+{
+  
+}
+.resume-right-col
+{
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  color: white;
+
+}
+.resume-left-col img
+{
+ 
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #73AD21;
+}
+.resume-left-col h2
+{
+  padding-top: .5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30pt
+}
+.resume-left-color h4
+{
+  color: green;
+  text-align: justify;
+}
+.resume-left-col hr
+{
+  border-top: 3px solid green;
+}
+.resume-img
+{ 
+  text-align: center;
+}
+.resume-left-col p
+{
+  text-align: justify;
+}
+.resume-right-col h4
+{
+  margin-top: 0px;
+
+}
+.resume-right-col h2
+{
+  margin-top: 20px;
+  margin-left: 20pt;
+  
+}
+.educ-grid
+{
+  margin-left: 20pt;
+}
+.educ-left
+{
+  
+}
+.resume-right-col hr
+{
+  border-top: 3px solid #e22947;
+  margin-left: 20pt;
+  margin-right: 20pt;
+}
+.we-grid
+{
+  margin-left: 20pt;
+}
+.skills
+{
+  display: flex;
+  margin-left: 20pt;
+}
+.skill-pb
+{
+  margin: auto;
+  width: 75%;
+}
+.new-legend
+{
+  background: green;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 10pt;
+  
+}
