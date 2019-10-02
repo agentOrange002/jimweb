@@ -18,7 +18,7 @@ class Aboutme extends Component {
                         <h2>Hobbies</h2>  
                     </Cell>
                     <Cell col={6}>
-                        <h2>Characterics</h2>      
+                        <h2>Personality</h2>      
                     </Cell>
                 </Grid>
             </div>

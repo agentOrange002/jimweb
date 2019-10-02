@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MetisMenu from 'react-metismenu';
+import './metismenu.css'
 
 const content=[
     {

@@ -42,10 +42,8 @@ class Rlayout extends Component {
                                 </div>   
                             </main>
                         </Router>                        
-                    </Content>
-                    <div>
-                    <Rfooter/>
-                    </div>                   
+                    </Content>                    
+                    <Rfooter/>                                    
                 </Layout>               
             </div>          
     );
