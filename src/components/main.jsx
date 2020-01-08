@@ -12,14 +12,14 @@ class Main extends Component {
    
     render() { 
         return (             
-                <Switch>
-                <Route exact path ="/" component={Landingpage}/>   
-                <Route path ="/card1" component={Card1}/>    
-                <Route path ="/aboutme" component={Aboutme}/>          
-                <Route path ="/contactme" component={Contactme}/> 
-                <Route path ="/resume" component={Resume}/>      
-                <Route path ="/projects" component={Projects}/>   
-                <Route path ="*" component={Notfound}/>  
+                <Switch>               
+                <Route exact path ="/app/home" component={Landingpage}/>   
+                <Route path ="/app/card1" component={Card1}/>    
+                <Route path ="/app/aboutme" component={Aboutme}/>          
+                <Route path ="/app/contactme" component={Contactme}/> 
+                <Route path ="/app/resume" component={Resume}/>      
+                <Route path ="/app/projects" component={Projects}/>   
+                <Route path ="/app/*" component={Notfound}/>  
                 </Switch>             
         );
     }

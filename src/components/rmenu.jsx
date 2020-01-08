@@ -6,12 +6,12 @@ const content=[
     {
         icon: 'fas fa-home',
         label: 'Home',
-        to: '/',
+        to: '/app/home',
     },
     {
         icon: 'fas fa-address-card',
         label: 'About Me',
-        to: '/aboutme',
+        to: '/app/aboutme',
         // content: [
         //     {
         //         icon: 'fas fa-address-card',
@@ -23,17 +23,17 @@ const content=[
     {
         icon: 'fas fa-file',
         label: 'Resume',
-        to: '/resume',
+        to: '/app/resume',
     },
     {
         icon: 'fas fa-folder',
         label: 'Projects',
-        to: '/projects',
+        to: '/app/projects',
     },
     {
         icon: 'fas fa-id-card',
         label: 'Contact Me',
-        to: '/contactme',
+        to: '/app/contactme',
     },
 ];
 

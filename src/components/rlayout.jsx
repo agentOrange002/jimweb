@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
-import {BrowserRouter as Router} from 'react-router-dom';
 import Main from './main';
 import Rfooter from './rfooter';
 import Rmenu from './rmenu';
@@ -13,11 +12,11 @@ class Rlayout extends Component {
                 <Layout>
                     <Header className="header-color" title="My Portfolio" scroll>
                         <Navigation>
-                            <a href="/">Home</a>
-                            <a href="/aboutme">About Me</a>                            
-                            <a href="/resume">Resume</a>
-                            <a href="/projects">Projects</a>
-                            <a href="/contactme">Contact Me</a>     
+                            <a href="/app/home">Home</a>
+                            <a href="/app/aboutme">About Me</a>                            
+                            <a href="/app/resume">Resume</a>
+                            <a href="/app/projects">Projects</a>
+                            <a href="/app/contactme">Contact Me</a>     
                         </Navigation>
                     </Header>
                     <Drawer className="drawer">
@@ -35,13 +34,13 @@ class Rlayout extends Component {
                         </Navigation>
                     </Drawer>
                     <Content>
-                        <Router>
+              
                             <main className="container">
                                 <div className="page-content" >
                                 <Main />
                                 </div>   
                             </main>
-                        </Router>                        
+                                        
                     </Content>                    
                     <Rfooter/>                                    
                 </Layout>               
